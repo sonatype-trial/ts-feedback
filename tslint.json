@@ -1,0 +1,28 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "await-promise": true,
+        "no-return-await": true,
+        "no-floating-promises": true,
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "arrow-return-shorthand": true,
+        "arrow-parens": true,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "max-line-length": [
+            true,
+            100
+        ],
+        "no-console": false
+    },
+    "rulesDirectory": []
+}
